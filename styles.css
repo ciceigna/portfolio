@@ -1,0 +1,118 @@
+.navbar {
+    --bs-navbar-padding-y: 0;
+
+}
+
+.container-fluid {
+    background-color: #54c56d;
+}
+
+#enc {
+    margin: 0 auto;
+}
+
+.encabezado {
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.encabezado img{
+    width: 25%;
+    border-radius: 15rem;
+}
+
+#porot {
+    margin-top: 10rem;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    background-color: #54c56d;
+}
+
+.row img{
+    margin-top: 5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px 10px #e048cc;
+    animation: shadows 1.5s infinite;
+    transition: all .2s ease-in-out; 
+}
+
+.row img:hover{
+    transform: scale(1.5); 
+}
+
+#abme {
+    margin-bottom: 5rem;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+#abme p{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+#ctc {
+    padding: 2rem;
+    padding-bottom: 5rem;
+    background-color: #54c56d;
+}
+
+.btn-primary{
+    margin-top: 1rem;
+    background-color: rgb(228, 59, 96);
+    border-color: #f11a1a;
+}
+
+.btn-primary:hover{
+    background-color: rgb(189, 27, 62);
+    border-color: #f11a1a;
+    animation: wowie 1.5s infinite; 
+}
+
+.form-group {
+    margin-top:2rem;
+    
+}
+
+@keyframes shadows {
+    0% {
+      text-shadow: #e048cc 0 0 10px;
+      box-shadow: 0px 0px 20px 10px #e048cc;
+    }
+    50% {
+      text-shadow: blueviolet 0 0 2px;
+      box-shadow: 0px 0px 20px 10px blueviolet;
+    }
+    75% {
+      text-shadow: rebeccapurple 0 0 5px;
+      box-shadow: 0px 0px 20px 10px rebeccapuprle;
+    }
+    100% {
+      text-shadow: #e048cc 0 0 10px;
+      box-shadow: 0px 0px 20px 10px #e048cc;
+    }
+  }
+
+@keyframes wowie {
+    0% {
+      text-shadow: #e048cc00 0 0 10px;
+      box-shadow: 0px 0px 20px 10px #e048cc00;
+    }
+    50% {
+      text-shadow: blueviolet 0 0 2px;
+      box-shadow: 0px 0px 20px 10px blueviolet;
+      opacity: 1.5;
+    }
+    75% {
+      text-shadow: rebeccapurple 0 0 5px;
+      box-shadow: 0px 0px 20px 10px rebeccapuprle;
+    }
+    100% {
+      text-shadow: #e048cc00 0 0 10px;
+      box-shadow: 0px 0px 20px 10px #e048cc00;
+    }
+  }

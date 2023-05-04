@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3418de1dfa.js" crossorigin="anonymous"></script>
+    <title>Portfolio de Fuzzy</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fuzzy!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#porot">Portfolio</a>
+              <a class="nav-link" href="#abme">Acerca de Mí</a>
+              <a class="nav-link" href="#ctc">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="enc">
+
+        <div class="encabezado">
+            <img src="img/fusi.png" alt="Fuzzy">
+            <h1>Ignacio Cicerone</h1>
+            <hr>
+            <h4>Desarrollador Web</h4>
+        </div>
+
+      </section>
+
+      <section id="porot">
+        <h2>Portfolio</h2>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/trabajo1.png" alt="un">
+            </div>
+            <div class="col-sm-4">
+                <img src="img/trabajo2.png" alt="dos">
+            </div>
+            <div class="col-sm-4">
+                <img src="img/trabajo3.png" alt="tres">
+            </div>
+        </div>
+      </section>
+
+      <section id="abme">
+        <h2>Acerca de Mí</h2>
+        <hr>
+        <p class="lead">
+          Mi nombre es Ignacio Cicerone (Fuzzyfangz para los furros), estudio para desarrollador web full-stack basado de CABA, Argentina.
+          <br>
+          Tambien me dedico a dibujar/ilustrar en mi tiempo libre y estoy desarrollando una página web como portfolio y galería de mis trabajos.
+        </p>
+      </section>
+
+      <section id="ctc">
+        <h2>Contactame</h2>
+        <hr>
+        <form method="post" action="contact">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar!</button>
+      </form>
+      </section>
+
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="#porot" class="nav-link px-2 text-muted">Portfolio</a></li>
+          <li class="nav-item"><a href="#abme" class="nav-link px-2 text-muted">Acerca de Mi</a></li>
+          <li class="nav-item"><a href="#ctc" class="nav-link px-2 text-muted">Contacto</a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/fuzzyfangz_/" class="nav-link px-2 text-muted"><i class="fa-solid fa-camera-retro"></i>Instagram</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2023 Ignacio Cicerone</p>
+      </footer>
+</body>
+</html>
